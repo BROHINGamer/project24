@@ -19,9 +19,5 @@ class Ball{
       
       
     }
-    function keyPressed(){
-        if(keyCode===UP_ARROW){
-            Matter.Body.applyForce(this.body,pos,{x:85,y:-85})
-        }
-    }
+   
 }
